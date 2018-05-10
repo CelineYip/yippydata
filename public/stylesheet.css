@@ -6,12 +6,12 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: #fafafa;
   border: solid;
   border-color: #a7a7a7;
   padding: 20px 20px;
   color: black;
-  font-family: ;
+  font-family: "Raleway", sans-serif;
   font-size: ;
 }
 
@@ -19,28 +19,10 @@ h2 {
   width: 95%;
   padding: 5px 5px;
   background-color: #a7a7a7;
-  font-family: ;
+  font-family: "Quicksand";
   font-size: ;
+  font-weight: normal;
   color: ;
-}
-
-/* Navigation */
-
-.nav {
-  width: 100%;
-  text-align: center;
-  background-color: #a7a7a7;
-}
-
-.nav_container {
-  border: none;
-}
-
-.nav_content {
-  display: inline-block;
-  padding: 1em 3em;
-  color: ;
-  font-weight: bold;
 }
 
 /* Header */
@@ -51,6 +33,7 @@ h2 {
 
 .header_title {
   font-size: 4em ; /*shorthand? */
+	font-family: "Sacramento", cursive;
 	font-style: italic;
 	font-weight: bold;
   color: orange;
@@ -82,6 +65,13 @@ h2 {
   
 }
 
+.china, .hudson, .sex {
+  padding: 5px 10px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Suggested Datasets */
 
 /* About Me */
@@ -92,13 +82,15 @@ h2 {
 
 .intro_pic {
   display: inline-block;
+  padding: 10px 10px;
   height: 100px;
   width: 100px;
-  border-radius: 50px;
+  border-radius: 70px;
 }
 
 .about_subtitle {
-  display: inline-block;/* code from udacity lesson video */
+  display: inline-block;
+  width: 95%;
 }
 
 .about_more {
@@ -109,17 +101,6 @@ h2 {
 
 .contact {
   
-}
-
-/* The Button */
-
-button {
-}
-
-.button_content {
-  background-color: #4c4c4c;
-  color: white;
-
 }
 
 /* Footer */
@@ -139,11 +120,6 @@ footer {
   
   h2 {
     
-  }
-  
-  .nav_content {
-  display: inline-block;
-  padding: 10px 40px;
   }
   
   .header__logo {
