@@ -1,8 +1,83 @@
-<html>
-  <head>
-    <title>Yippy!</title>
-  </head>
-  <body>
-    <h1>Welcome! Content pending...</h1>
-  </body>
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Below ensures content remains within the viewport-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Below are styesheets for font, icons, and CSS -->
+  <link href="https://fonts.googleapis.com/" rel="stylesheet">
+  <link href="stylesheet.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/" integrity="" crossorigin="anonymous">
+</head>
+<body>
+<!--Figure out design for mobile
+    Scroll down (width: 100%)
+    Bars Icon (Navigation)
+  Figure out design for computer
+    
+  Link Google Fonts and Font Awesome -->
+  <nav class="nav">
+    <ul class="nav_container">
+      <li class="nav_content">Data Visualizations</li>
+      <li class="nav_content">Suggest Datasets!</li>
+      <li class="nav_content">About Me</li>
+      <li class="nav_content">Contact</li>
+    </ul>
+  </nav>
+  <!-- Below is header for page title and mini about -->
+  <header class="header">
+    <img class="header__logo" src="image/logo.png" alt="Yippy Data Logo">
+    <h1 class="header_title">Yippy Data!</h1>
+      <p class="header_subtitle">Here to present complicated data in easy-to-understand graphics.</p>
+  </header>
+  <main>
+  <!-- Below are datasets and visualizations -->
+  <section class="data">
+    <h2 class="data_title">Data Visualizations</h2>
+  </section>
+  <!-- Below is an 'About Me' section -->
+  <section class="about">
+    <h2>About Me</h2>
+      <img class="intro_pic" src="///home/chronos/u-ee32d5924aca66e43f5952e8e70ce59acc4149b0/Downloads/Yippy%20Data!/img/intro_pic.jpg"
+  alt="Introduction pic">
+      <div class="about_subtitle">
+        <p>Hi Peeps,</p>
+        <span>My name is Celine Yip (take a wild guess where the name ‘Yippy Data!’ comes from) and I’m super into data. My goal is to present data in a way that anyone can pick up, understand, and use. Right now I’m experimenting with the best ways to present data - take a look at what I have so far!</span>
+      </div>
+      <div class="about_more">
+        <ul>
+          <li><a href="">Github</a></li>
+          <li><a href="">CodePen</a></li>
+          <li><a href="">LinkedIn</a></li>
+        </ul>
+      </div>
+  </section>
+  <!-- Below is a Contact section -->
+  <section class="contact">
+    <h2>Contact Me!</h2>
+      <p>If you’d like to contact me then please shoot me an email! Heck, I’d even be happy with someone sending me doggy pictures. </p>
+      <p>I'm always on the prowl for interesting data, so if you have any suggestions for cool, public datasets to check out then please let me know!</p>
+      <p>Feedback on the graphics is welcome as well!</p>
+  </section>
+  <!-- If you press this button animal pics should appear and to get rid of them you refresh the page-->
+  <section class="button">
+    <h2 class="button_title">The Button</h2>
+      <button class="button_content">Press Me For Animals!</button>
+      <p> Hit Refresh to Send Them Home!</p>
+  </section>
+  </main>
+  <hr>
+    <footer>
+      <p>@Copyright 2018 by Celine Yip. All Rights Reserved.</p>
+    </footer>
+  <script>
+    /* Event Listeners */
+    /*
+      First, select nav elements to assign event listeners
+      Create function that opens nav when bars icon is clicked
+    */
+    var nav =
+  </script>
+</body>
 </html>
