@@ -1,0 +1,184 @@
+
+html {
+  padding: 10px 30px;
+  text-align: ;
+
+}
+
+body {
+  background-color: white;
+  border: solid;
+  border-color: #a7a7a7;
+  padding: 20px 20px;
+  color: black;
+  font-family: ;
+  font-size: ;
+}
+
+h2 {
+  width: 95%;
+  padding: 5px 5px;
+  background-color: #a7a7a7;
+  font-family: ;
+  font-size: ;
+  color: ;
+}
+
+/* Navigation */
+
+.nav {
+  width: 100%;
+  text-align: center;
+  background-color: #a7a7a7;
+}
+
+.nav_container {
+  border: none;
+}
+
+.nav_content {
+  display: inline-block;
+  padding: 1em 3em;
+  color: ;
+  font-weight: bold;
+}
+
+/* Header */
+
+.header {
+  text-align: center;
+}
+
+.header_title {
+  font-size: 4em ; /*shorthand? */
+	font-style: italic;
+	font-weight: bold;
+  color: orange;
+  margin: 20px auto;
+  display: inline-block;
+}
+
+.header__logo {
+  height: 50px;
+  width: 50px;
+  padding-right: 15px;
+  display: inline-block;
+}
+
+.header_subtitle {
+  font: 1em;
+  font-style: italic;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Data Visualizations */
+
+.data {
+ /*Link to plot.ly, Prezi, and...*/
+}
+
+.data_title {
+  
+}
+
+/* Suggested Datasets */
+
+/* About Me */
+
+.about {
+  
+}
+
+.intro_pic {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.about_subtitle {
+  display: inline-block;/* code from udacity lesson video */
+}
+
+.about_more {
+  
+}
+
+/* Contact */
+
+.contact {
+  
+}
+
+/* The Button */
+
+button {
+}
+
+.button_content {
+  background-color: #4c4c4c;
+  color: white;
+
+}
+
+/* Footer */
+
+footer {
+  font-size: 13px;
+  color: #4c4c4c;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 450px) {
+  
+  h1 {
+    
+  }
+  
+  h2 {
+    
+  }
+  
+  .nav_content {
+  display: inline-block;
+  padding: 10px 40px;
+  }
+  
+  .header__logo {
+    
+  }
+  
+  .header_title {
+    font-size: 2.5em ; /*shorthand? */
+  }
+  
+  .header_subtitle {
+    
+  }
+  
+  .data_title {
+    
+  }
+  
+  .data_subtitle {
+    
+  }
+  
+  .about_subtitle {
+    
+  }
+  
+  .intro_pic {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 451px) {
+  
+  
+  
+}
