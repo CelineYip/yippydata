@@ -16,8 +16,7 @@ h2 {
   width: 95%;
   padding: 5px 5px;
   background-color: #a7a7a7;
-  font-family: "Quicksand";
-  font-weight: normal;
+  font: normal "Quicksand";
 }
 
 /* Header */
@@ -27,10 +26,7 @@ h2 {
 }
 
 .header_title {
-  font-size: 4em ; /*shorthand? */
-	font-family: "Sacramento", cursive;
-	font-style: italic;
-	font-weight: bold;
+	font: italic bold 4em "Sacramento", cursive;
   color: orange;
   margin: 20px auto;
   display: inline-block;
@@ -44,7 +40,6 @@ h2 {
 }
 
 .header_subtitle {
-  font: 1em;
   font-style: italic;
   margin-right: auto;
   margin-left: auto;
