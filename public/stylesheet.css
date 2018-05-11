@@ -41,8 +41,7 @@ h2 {
 
 .header_subtitle {
   font-style: italic;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 }
 
 /* Data Visualizations */
@@ -57,23 +56,41 @@ h2 {
 .china, .hudson, .sex {
   padding: 5px 10px;
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 /* About Me */
 
+.about_subtitle {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+}
+
 .intro_pic {
-  float: left;
-  display: inline-block;
   padding: 10px 10px;
   height: 100px;
   width: 100px;
   border-radius: 70px;
+  order: 0;
 }
 
-.about_subtitle {
-  display: inline-block;
+.par_container {
+  flex-direction: column;
+}
+
+.par_1 {
+  order: 1;
+  width: 95%;
+}
+
+.par_2 {
+  order: 2;
+  width: 95%;
+}
+
+.par_3 {
+  order: 3;
   width: 95%;
 }
 
@@ -102,11 +119,22 @@ footer {
     padding: 5px 5px;
     width: 100%;
   }
-  
+}
+
+@media screen and (max-width: 862px) {
+
   .intro_pic {
+    float: left;
     display: inline-block;
+    padding: 10px 10px;
     height: 100px;
     width: 100px;
+    border-radius: 70px;
+  }
+  
+  .about_subtitle {
+    display: inline-block;
+    width: 95%;
   }
 }
 
