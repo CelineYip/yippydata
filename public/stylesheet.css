@@ -10,6 +10,7 @@ body {
   padding: 20px 20px;
   color: black;
   font-family: "Raleway", sans-serif;
+  max-width: 1200px;
 }
 
 h2 {
@@ -69,8 +70,6 @@ h2 {
 
 .intro_pic {
   padding: 10px 10px;
-  height: 100px;
-  width: 100px;
   border-radius: 70px;
   order: 0;
 }
