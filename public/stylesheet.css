@@ -72,6 +72,8 @@ h2 {
   padding: 10px 10px;
   border-radius: 70px;
   order: 0;
+  height: 200px;
+  width: 200px;
 }
 
 .par_container {
