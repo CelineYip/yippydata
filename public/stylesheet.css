@@ -27,7 +27,7 @@ h2 {
 }
 
 .header_title {
-	font: italic bold 4em "Sacramento", cursive;
+  font: italic bold 4em "Sacramento", cursive;
   color: orange;
   margin: 20px auto;
   display: inline-block;
@@ -70,7 +70,7 @@ h2 {
 
 .intro_pic {
   padding: 10px 10px;
-  border-radius: 90px;
+  border-radius: 100px;
   order: 0;
   height: 200px;
   width: 200px;
